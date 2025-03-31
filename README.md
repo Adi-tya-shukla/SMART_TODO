@@ -1,19 +1,29 @@
 SMART TODO
-SMART TODO is a feature-rich task management application designed to help users efficiently organize and prioritize their daily activities. Built with React, it offers a seamless and intuitive interface for managing tasks effectively.
+SMART TODO is a comprehensive task management application designed to help users efficiently organize and prioritize their daily activities. Built with React, it offers a seamless and intuitive interface for effective task management.​
 
 Features
 Task Management: Add, edit, and delete tasks effortlessly.​
 
-
-Status Tracking: Mark tasks as completed or pending to keep track of progress.​
+Status Tracking: Mark tasks as completed or pending to monitor progress.​
 
 Priority Levels: Assign priority levels (low, medium, high) to tasks for better organization.​
 
-Search Functionality: Quickly find tasks using the search feature.​
+Search Functionality: Quickly locate tasks using the search feature.​
 
 Filters: Filter tasks based on status and priority to focus on what's important.​
 
 Responsive Design: Optimized for both desktop and mobile devices.​
+
+Table of Contents
+Installation
+
+Usage
+
+Contributing
+
+License
+
+Acknowledgments
 
 Installation
 To run SMART TODO locally, follow these steps:
@@ -24,19 +34,19 @@ bash
 Copy
 Edit
 git clone https://github.com/Adi-tya-shukla/SMART_TODO.git
-Navigate to the Project Directory:
+2. Navigate to the Project Directory:
 
 bash
 Copy
 Edit
 cd SMART_TODO
-Install Dependencies:
+3. Install Dependencies:
 
 bash
 Copy
 Edit
 npm install
-Start the Development Server:
+4. Start the Development Server:
 
 bash
 Copy
@@ -58,7 +68,7 @@ Filtering Tasks: Use the filter options to view tasks based on their status or p
 Searching Tasks: Utilize the search bar to find tasks containing specific keywords.​
 
 Contributing
-We welcome contributions to enhance SMART TODO. To contribute:
+We welcome contributions to enhance SMART TODO. To contribute:​
 
 Fork the Repository.
 
@@ -82,11 +92,11 @@ Edit
 git push origin feature/YourFeatureName
 5. Open a Pull Request.
 
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.
+Please ensure your code adheres to the project's coding standards and includes appropriate tests.​
 
 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the LICENSE file for more details.​
 
 Acknowledgments
-Special thanks to all contributors and the open-source community for their invaluable support and resources.
+Special thanks to all contributors and the open-source community for their invaluable support and resources.​
 

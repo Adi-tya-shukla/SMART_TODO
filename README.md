@@ -1,12 +1,92 @@
-# React + Vite
+SMART TODO
+SMART TODO is a feature-rich task management application designed to help users efficiently organize and prioritize their daily activities. Built with React, it offers a seamless and intuitive interface for managing tasks effectively.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Task Management: Add, edit, and delete tasks effortlessly.​
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Status Tracking: Mark tasks as completed or pending to keep track of progress.​
 
-## Expanding the ESLint configuration
+Priority Levels: Assign priority levels (low, medium, high) to tasks for better organization.​
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Search Functionality: Quickly find tasks using the search feature.​
+
+Filters: Filter tasks based on status and priority to focus on what's important.​
+
+Responsive Design: Optimized for both desktop and mobile devices.​
+
+Installation
+To run SMART TODO locally, follow these steps:
+
+Clone the Repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/Adi-tya-shukla/SMART_TODO.git
+Navigate to the Project Directory:
+
+bash
+Copy
+Edit
+cd SMART_TODO
+Install Dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the Development Server:
+
+bash
+Copy
+Edit
+npm start
+The application will open in your default browser at http://localhost:3000.
+
+Usage
+Adding a Task: Use the input field at the top to enter a new task and press 'Enter' to add it to the list.​
+
+Marking as Complete: Click the 'Mark Complete' button next to a task to mark it as completed. Click 'Undo' to revert.​
+
+Editing a Task: Click the 'View' button to view task details and make edits.​
+
+Deleting a Task: Click the '🗑 Delete' button to remove a task from the list.​
+
+Filtering Tasks: Use the filter options to view tasks based on their status or priority.​
+
+Searching Tasks: Utilize the search bar to find tasks containing specific keywords.​
+
+Contributing
+We welcome contributions to enhance SMART TODO. To contribute:
+
+Fork the Repository.
+
+Create a New Branch:
+
+bash
+Copy
+Edit
+git checkout -b feature/YourFeatureName
+3. Commit Your Changes:
+
+bash
+Copy
+Edit
+git commit -m 'Add some feature'
+4. Push to the Branch:
+
+bash
+Copy
+Edit
+git push origin feature/YourFeatureName
+5. Open a Pull Request.
+
+Please ensure your code adheres to the project's coding standards and includes appropriate tests.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Acknowledgments
+Special thanks to all contributors and the open-source community for their invaluable support and resources.
+

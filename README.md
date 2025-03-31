@@ -1,39 +1,34 @@
-SMART TODO
-SMART TODO is a comprehensive task management application designed to help users efficiently organize and prioritize their daily activities. Built with React, it offers a seamless and intuitive interface for effective task management.​
 
-Features
-Task Management: Add, edit, and delete tasks effortlessly.​
+# SMART TODO
 
-Status Tracking: Mark tasks as completed or pending to monitor progress.​
+SMART TODO is a comprehensive task management application designed to help users efficiently organize and prioritize their daily activities. Built with React, it offers a seamless and intuitive interface for effective task management.
 
-Priority Levels: Assign priority levels (low, medium, high) to tasks for better organization.​
+## Features
 
-Search Functionality: Quickly locate tasks using the search feature.​
+- **Task Management**: Add, edit, and delete tasks effortlessly.
+- **Status Tracking**: Mark tasks as completed or pending to monitor progress.
+- **Priority Levels**: Assign priority levels (low, medium, high) to tasks for better organization.
+- **Search Functionality**: Quickly locate tasks using the search feature.
+- **Filters**: Filter tasks based on status and priority to focus on what's important.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-Filters: Filter tasks based on status and priority to focus on what's important.​
+## Table of Contents
 
-Responsive Design: Optimized for both desktop and mobile devices.​
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-Table of Contents
-Installation
+## Installation
 
-Usage
-
-Contributing
-
-License
-
-Acknowledgments
-
-Installation
 To run SMART TODO locally, follow these steps:
 
-Clone the Repository:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Adi-tya-shukla/SMART_TODO.git
 
-bash
-Copy
-Edit
-git clone https://github.com/Adi-tya-shukla/SMART_TODO.git
+
 2. Navigate to the Project Directory:
 
 bash

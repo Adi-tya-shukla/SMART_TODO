@@ -1,0 +1,47 @@
+export const SAMPLE_TODOS = [
+    {
+      id: "1",
+      taskName: "Buy groceries",
+      createdTime: "2025-03-31T08:00:00Z",
+      updatedTime: "2025-03-31T08:00:00Z",
+      isCompleted: false,
+      priority: "high",
+      suggestedCompletionTime: "2025-03-31T12:00:00Z",
+    },
+    {
+      id: "2",
+      taskName: "Finish project report",
+      createdTime: "2025-03-30T10:30:00Z",
+      updatedTime: "2025-03-30T10:30:00Z",
+      isCompleted: false,
+      priority: "medium",
+      suggestedCompletionTime: "2025-04-01T15:00:00Z",
+    },
+    {
+      id: "3",
+      taskName: "Workout",
+      createdTime: "2025-03-31T06:00:00Z",
+      updatedTime: "2025-03-31T06:00:00Z",
+      isCompleted: false,
+      priority: "low",
+      suggestedCompletionTime: "2025-03-31T07:00:00Z",
+    },
+    {
+      id: "4",
+      taskName: "Call mom",
+      createdTime: "2025-03-31T09:00:00Z",
+      updatedTime: "2025-03-31T09:00:00Z",
+      isCompleted: false,
+      priority: "high",
+      suggestedCompletionTime: "2025-03-31T10:00:00Z",
+    },
+    {
+      id: "5",
+      taskName: "Read a book",
+      createdTime: "2025-03-29T20:00:00Z",
+      updatedTime: "2025-03-29T20:00:00Z",
+      isCompleted: false,
+      priority: "medium",
+      suggestedCompletionTime: "2025-04-02T22:00:00Z",
+    }
+  ];

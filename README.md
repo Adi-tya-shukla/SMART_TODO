@@ -17,36 +17,31 @@ SMART TODO is a comprehensive task management application designed to help users
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
 
 To run SMART TODO locally, follow these steps:
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Adi-tya-shukla/SMART_TODO.git
-
-
-2. Navigate to the Project Directory:
-
-bash
-Copy
-Edit
+```bash
 cd SMART_TODO
-3. Install Dependencies:
+```
 
-bash
-Copy
-Edit
+### 3. **Install Dependencies**
+
+```bash
 npm install
-4. Start the Development Server:
+npm i -g vite #  for global vite installation
+```
 
-bash
-Copy
-Edit
-npm start
+### 4. **Start the Development Server**
+
+```bash
+npm run dev
+```
+
+
+
 The application will open in your default browser at http://localhost:3000.
 
 Usage
@@ -62,35 +57,33 @@ Filtering Tasks: Use the filter options to view tasks based on their status or p
 
 Searching Tasks: Utilize the search bar to find tasks containing specific keywords.​
 
-Contributing
-We welcome contributions to enhance SMART TODO. To contribute:​
+We welcome contributions! To contribute:
 
-Fork the Repository.
+1. **Fork the Repository**
 
-Create a New Branch:
+2. **Create a New Branch**
 
-bash
-Copy
-Edit
+```bash
 git checkout -b feature/YourFeatureName
-3. Commit Your Changes:
+```
 
-bash
-Copy
-Edit
-git commit -m 'Add some feature'
-4. Push to the Branch:
+3. **Commit Your Changes**
 
-bash
-Copy
-Edit
+```bash
+git commit -m "Add some feature"
+```
+
+4. **Push to Your Branch**
+
+```bash
 git push origin feature/YourFeatureName
-5. Open a Pull Request.
+```
 
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.​
+5. **Open a Pull Request**  
+Describe your changes and submit for review.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.​
+> Please follow the project's coding standards and write clean, maintainable code.
+
 
 Acknowledgments
 Special thanks to all contributors and the open-source community for their invaluable support and resources.​

@@ -31,7 +31,10 @@ cd SMART_TODO
 
 ```bash
 npm install
+
 npm i -g vite #  for global vite installation
+
+npm install --save-dev vitest @testing-library/react @testing-library/jest-dom @testing-library/user-event jsdom    // for tests
 ```
 
 ### 4. **Start the Development Server**

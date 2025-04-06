@@ -31,7 +31,7 @@ cd SMART_TODO
 
 ```bash
 npm install
-npm i -g vite # optional, for global vite installation
+npm i -g vite #  for global vite installation
 ```
 
 ### 4. **Start the Development Server**

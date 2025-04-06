@@ -27,14 +27,15 @@ To run SMART TODO locally, follow these steps:
    ```bash
    git clone https://github.com/Adi-tya-shukla/SMART_TODO.git
 
+2.** Navigate to the Project Directory**:
+   ```bash
+      cd SMART_TODO
 
-2. Navigate to the Project Directory:
-cd SMART_TODO
 
-3. Install Dependencies:
-
-npm install
-npm i -g vite // for safer side
+3. **Install Dependencies**:
+   ```bash
+     npm install
+     npm i -g vite // for safer side
 
 4. Start the Development Server:
 npm run dev

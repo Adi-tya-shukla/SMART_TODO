@@ -17,7 +17,6 @@ SMART TODO is a comprehensive task management application designed to help users
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
@@ -30,23 +29,17 @@ To run SMART TODO locally, follow these steps:
 
 
 2. Navigate to the Project Directory:
-
-bash
-Copy
-Edit
 cd SMART_TODO
+
 3. Install Dependencies:
 
-bash
-Copy
-Edit
 npm install
-4. Start the Development Server:
+npm i -g vite // for safer side
 
-bash
-Copy
-Edit
-npm start
+4. Start the Development Server:
+npm run dev
+
+
 The application will open in your default browser at http://localhost:3000.
 
 Usage
@@ -74,23 +67,15 @@ Copy
 Edit
 git checkout -b feature/YourFeatureName
 3. Commit Your Changes:
-
-bash
-Copy
-Edit
 git commit -m 'Add some feature'
-4. Push to the Branch:
 
-bash
-Copy
-Edit
+4. Push to the Branch:
 git push origin feature/YourFeatureName
-5. Open a Pull Request.
+
+
+6. Open a Pull Request.
 
 Please ensure your code adheres to the project's coding standards and includes appropriate tests.​
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.​
 
 Acknowledgments
 Special thanks to all contributors and the open-source community for their invaluable support and resources.​

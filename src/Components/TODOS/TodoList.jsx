@@ -14,7 +14,6 @@ const TodoList = () => {
   const [searchText, setSearchText] = useState("");
   const [selectedTags, setSelectedTags] = useState([]);
   const [showFilters, setShowFilters] = useState(false);
-
   const updateTask = (id, updates) => {
     dispatch({ type: "UPDATE_TASK", payload: { id, ...updates } });
   };
@@ -45,7 +44,8 @@ const TodoList = () => {
       task.taskName.toLowerCase().includes(searchText.toLowerCase());
 
     const matchesTags =
-      selectedTags.length === 0 || selectedTags.every((tag) => task.tags.includes(tag));
+      selectedTags.length === 0 || selectedTags.some((tag) =>  task.tags.some((taskTag) => taskTag.toLowerCase() === tag.toLowerCase())
+);
 
     return matchesStatus && matchesPriority && matchesSearch && matchesTags;
   });

@@ -37,6 +37,7 @@ const todoReducer = (state, action) => {
   switch (action.type) {
     
     case "ADD_TASK":
+      console.log(action.payload)
       return [
         ...state,
         {
@@ -45,6 +46,7 @@ const todoReducer = (state, action) => {
           createdTime: new Date().toISOString(),
           updatedTime: new Date().toISOString(),
           isCompleted: false,
+          tags : action.payload.tags,
           priority: action.payload.priority || "medium",
         },
       ];

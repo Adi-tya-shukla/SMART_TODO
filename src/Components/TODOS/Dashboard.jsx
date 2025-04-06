@@ -27,6 +27,7 @@ const Dashboard = () => {
     setTaskName("");
     setPriority("medium");
     setSelectedTags([]);
+    setFilteredSuggestions([]);
   };
 
   return (

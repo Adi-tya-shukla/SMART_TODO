@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout";
 import { TodoProvider } from "./Context/TodoContext";
-import { ThemeProvider } from "./Context/ThemeContext";  // Import ThemeProvider
+import { ThemeProvider } from "./Context/ThemeContext";
 import Dashboard from "./Components/TODOS/Dashboard";
 import TodoList from "./Components/TODOS/TodoList";
 import ViewTodo from "./Components/TODOS/ViewTodo";

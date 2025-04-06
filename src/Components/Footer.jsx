@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-darkTeal border-t border-gray-200 dark:border-gray-700">
-      <div className="mx-auto w-full max-w-screen-xl p-6 lg:py-8">
+    <footer className="bg-white dark:bg-slate-800 border-t border-gray-200 dark:border-gray-700">
+      <div className="mx-auto w-full max-w-screen-xl p-4 lg:py-6">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                 Smart TODO
               </span>
             </a>
@@ -13,7 +13,7 @@ const Footer = () => {
 
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-4 text-xs font-semibold text-gray-900 uppercase dark:text-white">
                 Follow Us
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">

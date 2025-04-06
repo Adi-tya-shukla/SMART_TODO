@@ -7,14 +7,15 @@ const Layout = () => {
   const { darkMode } = useTheme();
 
   return (
-    <div className={`${darkMode ? "bg-slate-800 text-white" : "bg-slate-200 text-gray-900"} min-h-screen`}>
+    <div className={`${darkMode ? "bg-slate-800 text-white" : "bg-purple-100 text-gray-900"} min-h-screen flex flex-col`}>
       <Navbar />
-      <main className="container mx-auto p-4 flex-1 min-h-[calc(78vh-75px)]">
+      <main className="container mx-auto p-4 flex-1">
         <Outlet />
       </main>
       <Footer />
     </div>
   );
 };
+
 
 export default Layout;

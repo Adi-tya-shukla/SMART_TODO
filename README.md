@@ -21,7 +21,14 @@ SMART TODO is a comprehensive task management application designed to help users
 
 ## Installation
 
+
 To run SMART TODO locally, follow these steps:
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Adi-tya-shukla/SMART_TODO.git
+ 
+2. Navigate to project
 
 ```bash
 cd SMART_TODO
